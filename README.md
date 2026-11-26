@@ -1,16 +1,33 @@
-## Hi there 👋
+## 안녕하세요, 백엔드 개발자 김석준입니다 👋
 
-<!--
-**kimseokjun11/kimseokjun11** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+응답 형식이 달라도, 요청이 중복돼도, 입력이 범위를 벗어나도 **깨지지 않는 서버**를 만드는 데 관심이 많습니다.
+기능을 만들기 전에 "이 서비스에서 절대 틀리면 안 되는 것"부터 정하고, 그 부분을 테스트로 확인합니다.
 
-Here are some ideas to get you started:
+- 🎓 백석대학교 컴퓨터공학부 (2027.02 졸업 예정)
+- 📚 K-디지털 트레이닝 지능형 블록체인 웹 개발자 양성과정 수료 (2025.12 ~ 2026.07)
+- 📫 tjrwns2002su@naver.com
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠 기술 스택
+
+| 분야 | 기술 |
+|---|---|
+| Backend | Java, Spring Boot, MySQL |
+| Blockchain | Go, Hyperledger Fabric |
+| Frontend | TypeScript, React |
+| Infra | Docker Compose, AWS EC2, Git |
+
+### 📌 프로젝트
+
+**[PetChain — 펫보험 진료기록 검증 인프라](https://github.com/kimseokjun11/PetChain)** · 2026.05.04 ~ 2026.05.23· 5인 팀
+- Hyperledger Fabric 체인코드(Go) 설계·최초 구현 — 기록·동의·청구·포인트·크레딧 원장
+- 요청 식별값 기반 멱등성 처리로 재시도 시 중복 차감 방지, 역거래 이력으로 이중 취소 방지
+- 단위 테스트 18개로 중복 요청·잔액 부족·권한 없는 쓰기 시나리오 검증
+
+**MEDI — 복약 안전 확인 서비스** · 2026.01.24 ~ 2026.02.14 · 4인 팀 
+- Spring Boot로 공공데이터 DUR API(XML) 연동, 병용금기 조합 판별 로직 구현
+- 결과 1건/여러 건에 따라 객체/배열로 바뀌는 응답을 Jackson XmlMapper 분기로 안정적으로 파싱
+- React + TypeScript로 판별 결과를 경고·안전 상태 화면까지 구현
+
+**AX — 텔레오퍼레이션·강화학습 그리퍼 시스템** · 2026.06.24 ~ 2026.08.01 · 알티자동화 기업 연계 · 5인 팀
+- Unity ML-Agents 환경에서 비전 인식 → 강화학습 → 실물 로봇 원격조작 파이프라인 통합
+- 카메라 좌표를 로봇 좌표로 변환한 뒤 작업반경으로 클램프하는 안전 처리 구현
