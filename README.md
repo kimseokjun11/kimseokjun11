@@ -13,7 +13,7 @@
 |---|---|
 | Backend | Java, Spring Boot, MySQL |
 | Blockchain | Go, Hyperledger Fabric |
-| Frontend | TypeScript, React |
+| Frontend | JavaScript, TypeScript, React, HTML/CSS |
 | Infra | Docker Compose, AWS EC2, Git |
 
 ### 📌 프로젝트
